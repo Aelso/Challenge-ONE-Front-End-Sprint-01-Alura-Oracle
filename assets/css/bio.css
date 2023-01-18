@@ -17,14 +17,14 @@
 }
 
 .bio h2 {    
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 60;
     margin-bottom: 16px;
     text-align: center;    
 }
 
 .bio p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     text-align: justify;
 
@@ -54,6 +54,7 @@
     color: var(--golden-100);
     
 }
+
 
 
 @media screen and (min-width: 0) {
