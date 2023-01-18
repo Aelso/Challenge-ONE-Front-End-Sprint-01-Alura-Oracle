@@ -1,49 +1,58 @@
 .bio {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    margin: 32px 0;
+    width: 100%;
+    padding: 0 34px;
+    max-width: 1136px;   
+    font-size:60px;
 }
 
 .bio img {
     border-radius: 100%;
-    width: 368px;
-    height: 368px;
+    width: 100px;
+    height: 80px;
     object-fit: cover;
 }
 
-.bio h2 {
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 61px;
-    align-self: stretch;
+.bio h2 {    
+    font-size: 30px;
+    font-weight: 60;
+    margin-bottom: 16px;
+    text-align: center;    
 }
 
 .bio p {
-    width: 100%;
-    margin: 24px 0;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 26px;
+    text-align: justify;
+
 }
 
 .bio nav ul {
     display: flex;
     list-style: none;
     gap: 32px;
+    flex-wrap: wrap;   
 }
 
 .bio nav li a {
-    display: flex;
-    align-items: center;
-    gap: 4px;
+    color: var(--white-100);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;   
 }
 
 .bio nav li a i {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
+
 }
 
 .bio nav li a:hover {
-    color: var(--blue-500);
+    color: var(--golden-100);
+    
 }
 
 

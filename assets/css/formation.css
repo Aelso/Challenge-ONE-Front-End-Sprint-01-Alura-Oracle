@@ -1,23 +1,24 @@
 .formation {
-    background: var(--blue-300);
-    display: flex;
-    justify-content: center;
-    padding: 64px 0;
-    margin-top: 56px;
+    width: 100%;
+    padding: 64px 0;    
+    color: var(--black-500);  
+    background-color: var(--white-100);  
+    text-align: center;
+  
 }
 
 .formation h2 {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
     text-align: center;
+  
 }
 
-.formation-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.formation-container {  
+    max-width: 1136px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .formation .boxes {
@@ -33,13 +34,15 @@
     align-items: flex-start;
     gap: 8px;
     width: 368px;
+    height: 200px;
 }
 
 .formation .box div {
-    background-color: var(--black-100);
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 192px;
+    text-align: center;
 }
 
 .formation .box img {
@@ -50,6 +53,13 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
+}
+
+.formation p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 @media screen and (min-width: 0) {

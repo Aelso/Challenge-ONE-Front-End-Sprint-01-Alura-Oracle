@@ -1,7 +1,10 @@
 :root {
-    --blue-500: #2A7AE4;
-    --blue-300: #D4E4FA;
-    --blue-100: #EAF2FD;
-    --black-100: #F5F5F5;
-    --black-500: #464646;
+    --blue-500: #1c78f1;
+    --blue-300: #7badf3;
+    --blue-100: #a5c5f1;
+    --black-100: #3f3e3e;
+    --black-500: #0a0000;
+    --white-100: #ffffff;
+    --white-500: #e2d6d6;
+    --golden-100: #f7d9a8;
 }
